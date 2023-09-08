@@ -60,6 +60,10 @@ let orcRaiderQuotes = ["Ready to ride!", "Yes, chieftain?", "Hmm?",
 let orcRaider = speakerFactory("Orc Raider", orcRaiderQuotes);
 speakerMasterList.push(orcRaider);
 
+const newQuote = () => {
+    document.getElementById("randomQuote").innerHTML = randomMessage(speakerMasterList);
+}
 
-//Print a random quote to the console
-console.log(randomMessage(speakerMasterList));
+//On click of the Orc button, display random Ord quote
+//let btn = document.getElementById("randomOrc");
+//btn.addEventListener("click", newQuote);
