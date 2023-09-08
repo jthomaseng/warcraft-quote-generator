@@ -65,5 +65,5 @@ const newQuote = () => {
 }
 
 //On click of the Orc button, display random Ord quote
-//let btn = document.getElementById("randomOrc");
-//btn.addEventListener("click", newQuote);
+let btn = document.getElementById("randomOrc");
+btn.addEventListener("click", newQuote);
